@@ -45,14 +45,13 @@ if (chartContainer) {
     graph.render();
     
     // Pusher
-    var pusher = new Pusher('e6c6d225b2ca71968dcc', {
-        cluster: 'eu',
+    var pusher = new Pusher('YOUR_API_KEY', {
+        cluster: 'CLUSTER',
         encrypted: true
     });
     
     var channel = pusher.subscribe('poll');
     channel.bind('vote', (data) => {
-        console.log(data);
         dataPoints = dataPoints.map(x => {
             if (x.label == data.phone.id) {
                 x.y += data.points;
