@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Spectral');
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Spectral', serif;
+  height: 100%;
+}
+.main {
+  height: 100%;
+  background-color: #FAFAFA;
+}
+.container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+h1 {
+  text-align: center;
+}
+.caption {
+    font-weight: bold;
+}
+
+.poll-device {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #EDEDED;
+  transition: background 500mms ease-in-out;
+}
+
+.poll-device.selected {
+  background: #EDEDED;
+}
+
+.poll-device:hover {
+  background: #EDEDED;
+  cursor: pointer;
+}
+
+
+.poll-device img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+#vote-chart-container {
+  min-height: 370px;
+   width: 100%;
+   background: #f5f5f5;
+}

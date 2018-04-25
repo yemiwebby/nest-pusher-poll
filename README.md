@@ -1,6 +1,6 @@
 ## Realtime polling with Graph using Nest.js
 
-A demo app for realtime opinion poll. It uses Nest.js and Pusher. Need more explanations [here]().
+A demo app for realtime opinion poll. It uses Nest.js and Pusher. Need more explanationss, head over to [here]().
 
 ## Getting Started
 
