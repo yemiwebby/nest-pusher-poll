@@ -45,8 +45,8 @@ if (chartContainer) {
     chart.render();
     
     // Pusher
-    var pusher = new Pusher('e6c6d225b2ca71968dcc', {
-        cluster: 'eu',
+    var pusher = new Pusher('YOUR_API_KEY', {
+        cluster: 'CLUSTER',
         encrypted: true
     });
     
