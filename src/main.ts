@@ -1,8 +1,7 @@
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 
-
-import * as bodyParser from 'body-parser';
+// new import 
 import * as express from 'express';
 import * as path from 'path';
 
